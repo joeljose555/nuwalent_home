@@ -1,0 +1,58 @@
+import type { Testimonial } from '../types'
+
+export const testimonials: Testimonial[] = [
+  {
+    id: 't1',
+    quote: "Nuwalent didn't just deliver code — they delivered a product. Their team understood our business goals and translated them into an architecture that scaled beyond what we imagined.",
+    author: 'Sarah Chen',
+    role: 'CTO',
+    company: 'FinFlow Inc.',
+    avatar: 'SC',
+    rating: 5,
+  },
+  {
+    id: 't2',
+    quote: "We've worked with three agencies before Nuwalent. The difference is night and day. They ask the right questions, challenge assumptions, and ship production-quality work.",
+    author: 'Marcus Williams',
+    role: 'Founder & CEO',
+    company: 'Lumi Learning',
+    avatar: 'MW',
+    rating: 5,
+  },
+  {
+    id: 't3',
+    quote: "Our HIPAA-compliant platform was delivered on schedule, on budget, and passed security audits on the first attempt. That's rare. Nuwalent is the partner we needed.",
+    author: 'Dr. Priya Nair',
+    role: 'Chief Product Officer',
+    company: 'MedLink Health',
+    avatar: 'PN',
+    rating: 5,
+  },
+  {
+    id: 't4',
+    quote: "The team integrated seamlessly with our in-house engineers. Their code quality, documentation, and communication made handoff completely painless.",
+    author: 'James O\'Brien',
+    role: 'VP Engineering',
+    company: 'Orion Logistics',
+    avatar: 'JO',
+    rating: 5,
+  },
+  {
+    id: 't5',
+    quote: "From zero to production in 8 weeks. Our investors were genuinely impressed with what Nuwalent built. We'd never have gotten there that fast without them.",
+    author: 'Amira Hassan',
+    role: 'Co-founder',
+    company: 'Stackr AI',
+    avatar: 'AH',
+    rating: 5,
+  },
+  {
+    id: 't6',
+    quote: "They rebuilt our entire data pipeline on AWS and cut our infrastructure costs by 40%. More importantly, we went from daily downtime to 99.98% uptime.",
+    author: 'Tom Bradley',
+    role: 'Head of Engineering',
+    company: 'Vantage Analytics',
+    avatar: 'TB',
+    rating: 5,
+  },
+]
